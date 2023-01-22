@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(125deg,#f62b48,#1e73c3,#f62b48);
+    background-size: 400%;
+    animation: bganimation 15s infinite;
+  }
+  @keyframes bganimation{
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+.co{
+  color: azure;
+}
